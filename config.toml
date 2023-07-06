@@ -1,0 +1,14 @@
+
+[session]
+session_name = ""
+api_id = 
+api_hash = ""
+device_model = [""]
+system_version = ""
+
+[settings]
+min_time = 
+max_time = 
+
+strings = [""]
+
