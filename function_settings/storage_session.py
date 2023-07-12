@@ -1,10 +1,6 @@
 from pyrogram import Client
 
-from function_settings.settings import (
-    session_name,
-    api_id,
-    api_hash
-)
+from function_settings.settings import (session_name, api_id, api_hash)
 
 app = Client(session_name, api_id, api_hash)
 
