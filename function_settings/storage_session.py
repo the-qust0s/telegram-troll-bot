@@ -9,4 +9,4 @@ with app:
      string_session = app.export_session_string()
      
 session = Client(session_name, session_string=string_session)
-print(f"[+] {acc.first_name}\n")
+print(f"[+] {acc.first_name} -> {session_name}.session\n")
