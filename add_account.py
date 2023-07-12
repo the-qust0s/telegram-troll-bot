@@ -8,16 +8,9 @@ from pyrogram import Client
 from rich.console import Console
 from rich.prompt import Confirm
 
-from function_settings.settings import (
-           api_id,
-           api_hash,
-           session_name,
-           device_model,
-           system_version
-)
+from function_settings.settings import (api_id, api_hash, session_name, device_model, system_version)
 
 console = Console()
-
 
 console.print(
 '''
