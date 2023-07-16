@@ -1,11 +1,10 @@
 import rich
-
 from rich.console import Console
 
 console = Console()
 
 def Menu():
-    menu = [
+    functions = [
         "reply in chat",
         "reply to all chats",
         "reply in pm",
@@ -13,8 +12,8 @@ def Menu():
         "set reactions"
     ]
 
-    for numbers, menu in enumerate(
-        menu,
-        start = 1
-    ):
-      console.print(f"([bold red]{numbers}[/]) {menu}", style="bold")
+    for index, functions in enumerate(functions, 1):
+        console.print(
+            "([bold red]{index}[/]) {functions}"
+            .format(index=index, functions=functions)
+        )
