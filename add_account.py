@@ -54,9 +54,9 @@ class AddAccount(SessionSettings):
                self.delete = Confirm.ask("[bold red]delete all sessions?")
 
                if not self.delete:
-                  self.name_session = console.input("[bold magenta]session name> ")
+                  name_session = console.input("[bold magenta]session name> ")
                   
-                  os.remove(f"{self.name_session}.session")
+                  os.remove(f"{name_session}.session")
                   console.print(f"[+] {name_session}.session - Deleted")
         
                else:
