@@ -15,5 +15,6 @@ def Menu():
     for index, functions in enumerate(functions, 1):
         console.print(
             "([bold red]{index}[/]) {functions}"
-            .format(index=index, functions=functions)
+            .format(index=index, functions=functions),
+            style="bold"
         )
