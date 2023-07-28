@@ -28,11 +28,7 @@ class ReplyAll(FunctionSettings):
       def reply_all(self):
           @session.on_message(filters.all)
           async def helloall(session, message):
-
-                if "бот" in message.text:
-                   await message.reply(random.choice(self.strings))
-                   console.print("is reply 'not bot'")
-                    
+                
                 user = message.from_user
                 
                 try:
