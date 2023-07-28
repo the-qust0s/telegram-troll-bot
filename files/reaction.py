@@ -17,7 +17,7 @@ class SetReactions(FunctionSettings):
       def __init__(self):
           super().__init__()
           
-          self.emoji = ["👎", "💩", "🤡", "😡", "🤮"]
+          self.emoji = ["👎", "💩", "🤡", "😡", "🤮", "🖕"]
 
           console.print("Press enter to continue (Exit - CTRL + Z)", style="bold")
           input(">> ")
